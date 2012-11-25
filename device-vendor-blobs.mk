@@ -18,7 +18,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-	vendor/samsung/ancora/proprietary/lib/libril.so:obj/lib/libril.so \
+	vendor/samsung/ancora_tmo/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
@@ -72,7 +72,7 @@ PRODUCT_COPY_FILES += \
 
 # Media libs
 PRODUCT_COPY_FILES += \
-	vendor/samsung/ancora/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+	vendor/samsung/ancora_tmo/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
@@ -93,8 +93,8 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_COPY_FILES += \
-	vendor/samsung/ancora/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/ancora/proprietary/lib/libril.so:system/lib/libril.so \
+	vendor/samsung/ancora_tmo/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/ancora_tmo/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libganril.so:system/lib/libganril.so \
