@@ -19,8 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so 
 
 # Binaries
 PRODUCT_COPY_FILES += \
@@ -36,18 +35,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/samsung/ancora_tmo/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/samsung/ancora_tmo/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/samsung/ancora_tmo/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/samsung/ancora_tmo/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    vendor/samsung/ancora_tmo/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
-
-# QCOM optimized libv8
-PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora_tmo/proprietary/lib/libv8.so:system/lib/libv8.so
 
 # HW libs
 PRODUCT_COPY_FILES += \
@@ -77,7 +72,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -86,11 +80,6 @@ PRODUCT_COPY_FILES += \
 # Firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/bin/BCM4329B1_002.002.023.0944.0953.hcd:system/vendor/firmware/bcm4329.hcd \
-    vendor/samsung/ancora_tmo/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/samsung/ancora_tmo/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/samsung/ancora_tmo/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/samsung/ancora_tmo/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/samsung/ancora_tmo/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
     vendor/samsung/ancora_tmo/proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
