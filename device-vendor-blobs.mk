@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/hw/sensors.SGH-T679.so:system/lib/hw/sensors.ancora_tmo.so
+    vendor/samsung/ariesve/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so
 
 # Camera libs
 PRODUCT_COPY_FILES += \
