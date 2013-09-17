@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
 
 # Binaries
 PRODUCT_COPY_FILES += \
+    vendor/samsung/ancora_tmo/proprietary/bin/geomagneticd:system/bin/geomagneticd \
+    vendor/samsung/ancora_tmo/proprietary/bin/orientationd:system/bin/orientationd \
     vendor/samsung/ancora_tmo/proprietary/bin/rmt_storage:system/bin/rmt_storage
 
 # Cameradata
