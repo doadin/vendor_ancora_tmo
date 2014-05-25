@@ -81,7 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora/proprietary/lib/libwvm.so:system/lib/libwvm.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libwvm.so:system/lib/libwvm.so
 
 # Firmware
 PRODUCT_COPY_FILES += \
