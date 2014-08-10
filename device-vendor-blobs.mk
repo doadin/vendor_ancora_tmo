@@ -25,11 +25,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 
-# Cameradata
-PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora_tmo/proprietary/cameradata/datapattern_420sp_T679.yuv:system/cameradata/datapattern_420sp_T679.yuv \
-    vendor/samsung/ancora_tmo/proprietary/cameradata/datapattern_front_420sp_T679.yuv:system/cameradata/datapattern_front_420sp_T679.yuv
-
 # Adreno libs
 PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -80,8 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libwvm.so:system/lib/libwvm.so
+    vendor/samsung/ancora_tmo/proprietary/lib/libmmparser.so:system/lib/libmmparser.so 
 
 # Firmware
 PRODUCT_COPY_FILES += \
