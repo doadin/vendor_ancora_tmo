@@ -21,7 +21,8 @@ PRODUCT_COPY_FILES += \
 
 # Binaries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ancora_tmo/proprietary/bin/rmt_storage:system/bin/rmt_storage
+    vendor/samsung/ancora_tmo/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/ancora_tmo/proprietary/bin/radish:system/bin/radish  
 
 # Adreno libs
 PRODUCT_COPY_FILES += \
