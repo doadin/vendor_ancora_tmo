@@ -54,9 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ancora_tmo/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libcaps.so:system/lib/libcaps.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libexifa.so:system/lib/libexifa.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/samsung/ancora_tmo/proprietary/lib/libjpega.so:system/lib/libjpega.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/ancora_tmo/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/ancora_tmo/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
